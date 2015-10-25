@@ -25,7 +25,7 @@
             <Button android:id="@+id/close_all" style="?metaButtonBarButtonStyle"
                 android:layout_width="0dp" android:layout_height="wrap_content"
                 android:layout_weight="1" android:text="@string/close_all"
-                android:background="#6b6b84"/>
+                android:background="@color/colorPrimaryDark" android:textColor="@color/black_overlay"/>
 
         </LinearLayout>
 

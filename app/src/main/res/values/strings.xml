@@ -8,5 +8,6 @@
 
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="close_all">Close All</string>
+    <string name="close_all" color="@color/black_overlay">Close All</string>
+    <string name="title_activity_advanced_info">AdvancedInfo</string>
 </resources>

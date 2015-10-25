@@ -5,13 +5,13 @@
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:fitsSystemWindows="true" tools:openDrawer="start">
 
-    <include layout="@layout/app_bar_main" android:layout_width="match_parent"
+    <include layout="@layout/app_bar_advanced_info" android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
     <android.support.design.widget.NavigationView android:id="@+id/nav_view"
         android:layout_width="wrap_content" android:layout_height="match_parent"
         android:layout_gravity="start" android:fitsSystemWindows="true"
-        android:background="#455A64"
-        app:headerLayout="@layout/nav_header_main" app:menu="@menu/activity_main_drawer" />
+        app:headerLayout="@layout/nav_header_advanced_info"
+        app:menu="@menu/activity_advanced_info_drawer" />
 
 </android.support.v4.widget.DrawerLayout>
