@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_camara) {
             // Handle the camera action
-            Intent intent = new Intent(this, FullscreenActivity.class);
+            Intent intent = new Intent(this, AdvancedInfo.class);
             startActivity(intent);
         } else if (id == R.id.nav_gallery) {
 
